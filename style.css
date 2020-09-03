@@ -1,3 +1,8 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
 body{
     background-image: url("bits.jpg") ;
     background-repeat: no-repeat;
@@ -5,27 +10,83 @@ body{
 }
 h1{
     color: whitesmoke;
-    font-family: Courier New, monospace;
+    font-family: 'Orbitron';
     text-align: center;
     font-size: 40px;
     padding: 30px;
+    padding-right: 50px;
     background-color: #2463c2;
     margin-top: 0px;
     margin-left: 0px;
     margin-right: 0px;
     margin-bottom: 0px;
 }
+
+.menu{
+    width: 100%;
+    height: 50px;
+    padding-bottom: 10px;
+    background-color: #052c57;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 16px;
+    white-space: nowrap;
+    color: white;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.menu ul{
+    list-style: none;
+    position: relative;
+    padding: 0px;
+}
+
+.menu ul li{
+    background-color: #052c57;
+    width: 220px;
+    float: left;
+    padding-right: 0px;
+    padding-left: 160px;
+}
+
+.menu a:hover{
+    background-color: #9da0a3;
+}
+.menu a{
+    padding: 20px;
+    display: block;
+    text-decoration: none;
+    text-align-last: center;
+    background-color: #052c57;
+    color: white;
+    line-height: auto;
+}
+
+.menu ul ul{
+    position: absolute;
+    visibility: hidden;
+}
+
+.menu ul li:hover ul{
+    visibility: visible;
+}
+
+.menu ul ul li{
+    float: none;
+    border-bottom: solid 1px white;
+    padding: 0px;
+}
+
 h2{
     color: whitesmoke;
-    font-family: Courier New, monospace; 
-}
-a{
-    font-family: Courier New, monospace;
-    color: rgb(88, 88, 88);
-    text-decoration: none;
-    font-size: 19px;
-    padding: 15px;
-    background-color: whitesmoke;
+    font-family: 'Source Code Pro', monospace;
+    margin-top: 0px;
+    margin-bottom: 0px;
     margin-left: 0px;
-    margin-right: 100px;
+}
+
+.icone{
+    height: 16px;
+    float: left;
+    margin-top: 20px;
 }
