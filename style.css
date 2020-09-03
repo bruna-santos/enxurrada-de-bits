@@ -1,5 +1,5 @@
 body{
-    background-image: url("bits.jpg");
+    background-image: url("bits.jpg") ;
     background-repeat: no-repeat;
     background-size: 100%;
 }
@@ -13,7 +13,11 @@ h1{
     margin-top: 0px;
     margin-left: 0px;
     margin-right: 0px;
-
+    margin-bottom: 0px;
+}
+h2{
+    color: whitesmoke;
+    font-family: Courier New, monospace; 
 }
 a{
     font-family: Courier New, monospace;
