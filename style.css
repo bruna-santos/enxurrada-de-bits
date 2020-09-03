@@ -1,0 +1,27 @@
+body{
+    background-image: url("bits.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+h1{
+    color: whitesmoke;
+    font-family: Courier New, monospace;
+    text-align: center;
+    font-size: 40px;
+    padding: 30px;
+    background-color: #2463c2;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+
+}
+a{
+    font-family: Courier New, monospace;
+    color: rgb(88, 88, 88);
+    text-decoration: none;
+    font-size: 19px;
+    padding: 15px;
+    background-color: whitesmoke;
+    margin-left: 0px;
+    margin-right: 100px;
+}
