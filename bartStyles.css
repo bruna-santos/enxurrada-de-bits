@@ -65,3 +65,11 @@ a{
 ul{
     list-style-type: none;
 }
+
+.link:hover{
+    background-color: #9da0a3;
+}
+
+.homepage:hover{
+    background-color: #9da0a3;
+}

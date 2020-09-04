@@ -19,6 +19,10 @@ a.homepage{
     border: solid 1px white;
 }
 
+.homepage:hover{
+        background-color: #9da0a3;
+}
+
 a{
     text-decoration: none;
     text-decoration-color: white;
