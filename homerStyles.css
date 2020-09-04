@@ -51,3 +51,11 @@ a{
     font-family: 'Source Code Pro', monospace;
     font-size: 15px;
 }
+
+.link:hover{
+    background-color: #9da0a3;
+}
+
+.homepage:hover{
+    background-color: #9da0a3;
+}
