@@ -1,0 +1,67 @@
+body{
+    margin-left: 0%;
+    margin-right: 5%;
+}
+p{
+    text-align: justify;
+    margin-right: 30%;
+    margin-left: 20%;
+}
+h2{
+    color: #ffee05;
+}
+section{
+    margin-left: 5%;
+}
+
+h1{
+    margin-left: 20%;
+}
+
+.bart{
+    height: 400px;
+    width: 350px;
+    margin-right: 0px;
+}
+
+.homepage{
+    color: whitesmoke;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 15px;
+    background-color: #052c57;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 8px;
+    float: right;
+    border: solid 1px white;
+    display: block;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+a{
+    color: whitesmoke;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 15px;
+}
+
+.link{
+    color: whitesmoke;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 15px;
+    background-color: #052c57;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 8px;
+    float: right;
+    border: solid 1px white;
+    display: block;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+ul{
+    list-style-type: none;
+}
