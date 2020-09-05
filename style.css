@@ -89,3 +89,35 @@ h2{
     float: left;
     margin-top: 20px;
 }
+
+h3{
+    background-color: whitesmoke;
+    display: block;
+    padding: 15px;
+    opacity: 0.6;
+    margin-left: 40px;
+    margin-right: 40px;
+    font-size: 25px;
+    font-family: 'Abel', sans-serif;
+    color: #2b2b2b;
+}
+
+p{
+    background-color: whitesmoke;
+    display: block;
+    padding: 15px;
+    opacity: 0.6;
+    margin-left: 40px;
+    margin-right: 40px;
+    font-size: 18px;
+    font-family: 'Abel', sans-serif;
+    color: #2b2b2b;
+}
+
+nav ul ul{
+    z-index:1000;
+}
+
+nav.texto{
+    z-index:500;
+}
