@@ -4,7 +4,7 @@
 }
 
 body{
-    background-image: url("bits.jpg") ;
+    background-image: url("curvo.jpg") ;
     background-repeat: no-repeat;
     background-size: 100%;
 }
@@ -15,8 +15,7 @@ h1{
     font-size: 40px;
     padding: 30px;
     padding-right: 50px;
-    background-color: #2463c2;
-    margin-top: 0px;
+    margin-top: 20px;
     margin-left: 0px;
     margin-right: 0px;
     margin-bottom: 0px;
@@ -94,7 +93,7 @@ h3{
     background-color: whitesmoke;
     display: block;
     padding: 15px;
-    opacity: 0.6;
+    opacity: 0.7;
     margin-left: 40px;
     margin-right: 40px;
     font-size: 25px;
@@ -106,7 +105,7 @@ p{
     background-color: whitesmoke;
     display: block;
     padding: 15px;
-    opacity: 0.6;
+    opacity: 0.7;
     margin-left: 40px;
     margin-right: 40px;
     font-size: 18px;
