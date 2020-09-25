@@ -1,0 +1,66 @@
+head, body{
+    background-image: url("fundo\ jornal.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: whitesmoke;
+    font-family: 'Dosis', sans-serif;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+h1{
+    font-family: 'Amatic SC', cursive;
+    font-size: 50px;
+    text-align: center;
+    padding: 15px;
+    background-color: #4c7536;
+    margin-top: 0px;
+}
+
+img{
+    height: 150px;
+    width: auto;
+}
+
+.menu{
+    margin: 0px;
+    color: whitesmoke;
+    font-family: 'Dosis', sans-serif;
+    background-color: #4c7536;
+    display: flex;
+    flex-direction: initial;
+    padding: 15px;
+    border-color: 1px solid whitesmoke;
+}
+
+article, section{
+    display: block;
+    background-color: whitesmoke;
+    opacity: 0.8;
+    padding: 15px;
+    margin-right: 30%;
+    margin-bottom: 20px;
+    margin-left: 2cm;
+    margin-right: 2cm;
+}
+
+h2, p, a{
+    color: #303030;
+}
+
+footer{
+    margin: 0px;
+    margin-bottom: 0px;
+    background-color: #4c7536;
+    display: block;
+    flex-direction: inherit;
+    padding: 15px;
+}
+
+#footer{
+    color: whitesmoke;
+    font-family: 'Dosis', sans-serif;
+    text-align: center;
+}
