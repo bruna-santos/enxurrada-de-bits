@@ -2,23 +2,30 @@
 <html>
     <head>
         <link rel="stylesheet" href="style jornal.css">
+        <link rel="icon" href="icone jornal.jpg">
         <link href="https://fonts.googleapis.com/css2?family=Dosis&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap" rel="stylesheet">
-        <title>Rua interditada</title>
-        <nav class="menu">
-            <ul>
-                <il><a href="noticia ciclismo.html">Lazer</a></il>
-                <il><a href="noticia rua.html">Atualidades</a></il>
-                <il><a href="noticia pai e filho.html">Criminalidade</a></il>
-            </ul>
-        </nav>
+        <title>Jornal do Bairro</title>
     </head>
     <body>
-        <h1>Jornal Palmeiras</h1>
+        <h1 id="titulo">
+            Jornal Palmeiras
+        </h1>
+        <header>
+            <nav class="menu">
+                <ul>
+                    <il><a href="jornal.html" id="item">Home</a></il>
+                    <il><a href="noticia ciclismo.html" id="item">Lazer</a></il>
+                    <il><a href="noticia rua.html" id="item">Atualidades</a></il>
+                    <il><a href="noticia pai e filho.html" id="item">Criminalidade</a></il>
+                </ul>
+            </nav>
+        </header>
+        <main>
         <section>
         <h2>Moradores reclamam da nova rua interditada para uso</h2>
         <p>13/07/2020 - Redigido por Bruna Santos</p>
-        <img src="noticia rua.jpeg"/>
+        <img src="noticia rua.jpeg" id="reportagem"/>
         <h3>Construção de nova rua que diminuiria o congestionamento da região já se encerrou, porém ainda não é possível utilizá-la.</h3>
         <p>
             A via se localiza entre a Rua Senhora do Porto e a esquina da rua Silvio Guedes e ainda não possui nome.
@@ -34,16 +41,17 @@
             poderá causar um polo de congestionamento. Concluiu afirmando que, apenas mediante a análise dos documentos requisitados poderá
             ocorrer a liberação da via para tráfego urbano, pois sua atuação primária era relativa ao pátio da BHTrans presente no local.
         </p>
+        <p>Confira <a href="https://g1.globo.com/mg/minas-gerais/noticia/2020/07/13/moradores-de-bairro-na-regiao-oeste-de-bh-reclamam-de-rua-pronta-mas-fechada-para-o-transito.ghtml" id="link"><strong>aqui</strong></a> a fonte com a reportagem completa.</p>
     </section>
+    </main>
     <footer>
         <p id="footer">
-            Belo Horizonte - MG
+            Endereço: Bairro Palmeiras, Belo Horizonte - MG
             <br><br>
             Contato: (31)99999-9999
             <br>
             E-mail: brunasl0901@outlook
             <br>
-            Instagram: @bruna._sz
         </p>
     </footer>
     </body>
