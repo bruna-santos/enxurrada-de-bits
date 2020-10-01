@@ -2,23 +2,28 @@
 <html>
     <head>
         <link rel="stylesheet" href="style jornal.css">
+        <link rel="icon" href="icone jornal.jpg">
         <link href="https://fonts.googleapis.com/css2?family=Dosis&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap" rel="stylesheet">
         <title>Ciclismo</title>
-        <nav class="menu">
-            <ul>
-                <il><a href="noticia ciclismo.html">Lazer</a></il>
-                <il><a href="noticia rua.html">Atualidades</a></il>
-                <il><a href="noticia pai e filho.html">Criminalidade</a></il>
-            </ul>
-        </nav>
     </head>
     <body>
-        <h1>Jornal Palmeiras</h1>
+        <h1 id="titulo">Jornal Palmeiras</h1>
+        <header>
+        <nav class="menu">
+            <ul>
+                <il><a href="jornal.html" id="item">Home</a></il>
+                <il><a href="noticia ciclismo.html" id="item">Lazer</a></il>
+                <il><a href="noticia rua.html" id="item">Atualidades</a></il>
+                <il><a href="noticia pai e filho.html" id="item">Criminalidade</a></il>
+            </ul>
+        </nav>
+        </header>   
+        <main>
         <section>
             <h2>Cliclismo em alta na região Oeste de BH</h2>
             <p>31/08/2020 - Redigido por Bruna Santos</p>
-            <img src="noticia ciclismo.jpg"/>
+            <img src="noticia ciclismo.jpg" id="reportagem"/>
             <h3>Neste período de pandemia, está ocorrendo a popularização do ciclismo nas ciclovias da região Oeste.</h3>
             <p>
             Segundo a prefeitura de Belo Horizonte, até dezembro de 2017, a cidade criou <strong>89,93</strong> quilômetros de áreas destinadas
@@ -52,16 +57,17 @@
             na cidade, mas em contrapartida, o planejamento cicloviário avançou bastante. “Atualmente estamos desenvolvendo projetos para
             aproximadamente 70 km de novas ciclovias”, afirma a coordenadora de Sustentabilidade e Meio Ambiente da BHTRANS.
             </p>
+            <p>Confira <a href="https://www.daquibh.com.br/ciclismo-em-alta-na-regiao-oeste-de-bh/" id="link"><strong>aqui</strong></a> a fonte com a reportagem completa.</p>
         </section>
+    </main>
         <footer>
             <p id="footer">
-                Belo Horizonte - MG
+                Endereço: Bairro Palmeiras, Belo Horizonte - MG
                 <br><br>
                 Contato: (31)99999-9999
                 <br>
                 E-mail: brunasl0901@outlook
                 <br>
-                Instagram: @bruna._sz
             </p>
         </footer>
     </body>
