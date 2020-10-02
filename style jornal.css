@@ -1,0 +1,130 @@
+head, body{
+    background-color: #a2c276;
+    color: whitesmoke;
+    font-family: 'Dosis', sans-serif;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+h1{
+    font-family: 'Amatic SC', cursive;
+    font-size: 60px;
+    text-align: center;
+    padding: 15px;
+    background-color: #546b37;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+img{
+    height: 150px;
+    width: auto;
+}
+
+#reportagem{
+    height: 250px;
+}
+
+.menu{
+    margin: 0px;
+    margin-bottom: 30px;
+    background-color: #546b37;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    list-style-type: none;
+}
+
+#item {
+    text-decoration: none;
+    list-style-type: none;
+    color: whitesmoke;
+    font-size: 18px;
+    font-family: 'Dosis', sans-serif;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    padding-right: 60px;
+    padding-left: 60px;
+    float: none;
+}
+
+#item:hover{
+    background-color: #2f4029;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-size: 20px;
+    animation-name: aumentar;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in-out;
+}
+
+article, section{
+    display: block;
+    background-color: #e6decc;
+    opacity: 0.8;
+    padding: 15px;
+    margin-right: 30%;
+    margin-bottom: 20px;
+    margin-left: 2cm;
+    margin-right: 2cm;
+}
+
+h2, h3, p, a{
+    color: #382d28;
+}
+
+p{
+    text-align: justify;
+}
+
+footer{
+    margin: 0px;
+    margin-bottom: 0px;
+    background-color: #546b37;
+    display: block;
+    flex-direction: inherit;
+    padding: 15px;
+}
+
+#footer{
+    color: whitesmoke;
+    font-family: 'Dosis', sans-serif;
+    text-align: center;
+}
+
+#titulo{
+    animation-name: crescendo;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0.2s;
+}
+
+#link:link{
+    color: black;
+}
+
+#link:visited{
+    color: #2e6319;
+}
+
+@keyframes crescendo{
+    0%{
+        transform: scale(1);
+        color: #546b37;
+    }
+
+    55%{
+        color: #546b37;
+    }
+
+    100%{
+        transform: scale(2) rotate(360deg);
+        color: whitesmoke;
+    }
+}
+
+
