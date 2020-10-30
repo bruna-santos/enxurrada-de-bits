@@ -8,7 +8,7 @@ if (sinal === '+') {
 } if (sinal === '-') {
     resultado = parseInt(x) - parseInt(y)
     alert(`O resultado é ${resultado}`);
-} else if (sinal === '*') {
+} if (sinal === '*') {
     resultado = parseInt(x) * parseInt(y)
     alert(`O resultado é ${resultado}`);
 } else if (sinal === '/') {
