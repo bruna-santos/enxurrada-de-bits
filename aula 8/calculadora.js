@@ -1,17 +1,17 @@
 let x = prompt('1- Digite um número: ');
 let sinal = prompt('Digite + para somar, - para subtrair, * para multiplicar e / para dividir');
 let y = prompt('2- Digite um número: ');
-let resultado
-if (sinal = '+') {
+let resultado;
+if (sinal === '+') {
     resultado = parseInt(x) + parseInt(y)
     alert(`O resultado é ${resultado}`);
-} if (sinal = '-') {
+} if (sinal === '-') {
     resultado = parseInt(x) - parseInt(y)
     alert(`O resultado é ${resultado}`);
-} if (sinal = '*') {
-    let resultado3 = parseInt(x) * parseInt(y)
-    alert(`O resultado é ${resultado3}`);
-} if (sinal = '/') {
-    let resultado4 = parseInt(x) / parseInt(y)
-    alert(`O resultado é ${resultado4}`);
+} else if (sinal === '*') {
+    resultado = parseInt(x) * parseInt(y)
+    alert(`O resultado é ${resultado}`);
+} else if (sinal === '/') {
+    resultado = parseInt(x) / parseInt(y)
+    alert(`O resultado é ${resultado}`);
 }
