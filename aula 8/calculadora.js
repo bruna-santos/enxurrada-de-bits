@@ -1,17 +1,30 @@
-let x = prompt('1- Digite um número: ');
+function soma (a, b) {
+    return parseInt(a) + parseInt(b);
+}
+function subtração (a, b) {
+    return a - b;
+}
+function multiplicação (a, b) {
+    return a * b;
+}
+function divisão (a, b) {
+    return a / b;
+}
 let sinal = prompt('Digite + para somar, - para subtrair, * para multiplicar e / para dividir');
-let y = prompt('2- Digite um número: ');
-let resultado;
+let a, b;
 if (sinal === '+') {
-    resultado = parseInt(x) + parseInt(y)
-    alert(`O resultado é ${resultado}`);
-} if (sinal === '-') {
-    resultado = parseInt(x) - parseInt(y)
-    alert(`O resultado é ${resultado}`);
-} if (sinal === '*') {
-    resultado = parseInt(x) * parseInt(y)
-    alert(`O resultado é ${resultado}`);
-} else if (sinal === '/') {
-    resultado = parseInt(x) / parseInt(y)
-    alert(`O resultado é ${resultado}`);
+    a = soma(prompt('Digite um número: '),prompt('Digite um número: '));
+    b = alert(`Seu resultado é ${a}`);
+}
+if (sinal === '-') {
+    a = subtração(prompt('Digite um número: '),prompt('Digite um número: '));
+    b = alert(`Seu resultado é ${a}`);
+}
+if (sinal === '*') {
+    a = multiplicação(prompt('Digite um número: '),prompt('Digite um número: '));
+    b = alert(`Seu resultado é ${a}`);
+}
+if (sinal === '/') {
+    a = divisão(prompt('Digite um número: '),prompt('Digite um número: '));
+    b = alert(`Seu resultado é ${a}`);
 }

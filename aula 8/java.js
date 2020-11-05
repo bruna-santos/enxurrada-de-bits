@@ -1,8 +1,12 @@
-let saldoUsuario = prompt('Digite seu saldo: ')
-let valorCompra = prompt('Digite o valor da sua compra: ')
+let saldoUsuario, valorCompra;
+function compra (saldoUsuario, valorCompra) {
+    return saldoUsuario - valorCompra
+}
+let a = compra(prompt('Digite seu saldo: '), prompt('Digite o valor da sua compra: '));
 if (saldoUsuario > valorCompra) {
-    let saldoAtual = saldoUsuario - valorCompra
-    alert(`A compra foi realizada com sucesso! Seu saldo atual é ${saldoAtual}.`)
-} else if (saldoUsuario < valorCompra) {
-    alert ('Saldo insuficiente.')
+    alert(`A compra foi realizada com sucesso! Seu saldo atual é ${a}.`);
+} else if (a < 0) {   
+    alert('Saldo insuficiente.');
+} else {
+    alert(`A compra foi realizada com sucesso! Seu saldo atual é ${a}.`);
 }
