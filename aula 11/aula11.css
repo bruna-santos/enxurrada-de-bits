@@ -1,0 +1,32 @@
+body{
+    background-color: #5c0994;
+    color: white;
+    font-family: cursive;
+    margin: 2cm;
+}
+
+label{
+    font-size: 20px;
+}
+
+h2{
+    font-size: 40px;
+}
+
+button{
+    padding: 5px 15px;
+    font-size: 20px;
+    color: #2d014a;
+    background-color: #00ff2a;
+}
+
+input{
+    height: 20px;
+    border: initial 1px #130020;
+}
+
+button:hover{
+    cursor: pointer;
+    color: #00ff2a;
+    background-color: #2d014a;
+}
