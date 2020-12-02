@@ -1,15 +1,20 @@
-body {
-    background-color: #b8e5e6;
+body{
+    background-image: url("imagens/curvo.jpg") ;
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 
-h1 {
+h1{
+    color: whitesmoke;
+    font-family: 'Orbitron';
     text-align: center;
-    font-size: 30px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    padding: 15px;
-    padding-bottom: 20px;
-    color: #076c6e;
-    padding-bottom:70px;
+    font-size: 60px;
+    padding: 30px;
+    padding-right: 50px;
+    margin-top: 65px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
 }
 
 ul {
@@ -17,27 +22,49 @@ ul {
     flex-direction: row;
     display: flex;
     justify-content: space-evenly;
+    background-color: #052c57;
+    font-size: 16px;
+    color: white;
 }
 
 li {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
     padding: 10px;
-    border: solid #032020 2.5px;
-    background-color: #15abb0;
+    background-color: #052c57;
 }
 
 a {
     text-decoration: none;
-    color: #333333;
-}
-
-a:hover {
     color: whitesmoke;
+    font-family: 'Source Code Pro', monospace;
+    padding-top: 10px;
+    display: block;
+    height: 30px;
+    font-size: 20px;
 }
 
 li:hover{
-    background-color: #056363;
-
+    background-color: #9da0a3;
 }
 
+a:hover{
+    background-color: #9da0a3;
+    color: #404040;
+}
+
+#button {
+    background-color: #052c57;
+}
+
+button {
+    border: solid 1px whitesmoke;
+    background-color: #052c57;
+    padding: 5px 10px;
+}
+
+#button:hover{
+    background-color: #9da0a3;
+}
+
+button:hover{
+    background-color: #9da0a3;
+}
