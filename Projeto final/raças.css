@@ -1,0 +1,246 @@
+head, body{
+    background-color: #b0e1ff;
+    color: #382d28;
+    font-family: 'Dosis', sans-serif;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+header{
+    background-color: #007cc9; 
+}
+
+.decoração{
+    float: left;
+    width: auto;
+    height: 90px;
+    padding-top: 20px;
+    padding-right: 20px;
+    margin-left: 35%;
+}
+
+h1{
+    font-family: 'Amatic SC', cursive;
+    font-size: 90px;
+    padding-top: 15px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: justify;
+    margin-left: 0px;
+    margin-right: 15%;
+    color: white;
+
+}
+
+#head{
+    padding: 50px 20px;
+    background-color: #007cc9;
+}
+
+#head li{
+    padding: 5px 0px;
+}
+
+.menu ul{
+    padding: 0px;
+}
+
+.menu ul li{
+    float: left;
+    width: 200px;
+    height: 40px;
+    list-style: none;
+    text-align: center;
+    line-height: 40px;
+    background-color: #007cc9;
+    position: relative;
+}
+
+.menu ul li a{
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Dosis', sans-serif;
+}
+
+.menu ul li:hover{
+    background-color: #044f7d;
+}
+
+.menu ul ul{
+    display: none;
+    margin-top: 5px;
+}
+
+.menu ul li:hover ul{
+    display: block;
+}
+
+.menu ul ul ul{
+    margin-left: 200px;
+    top: 0px;
+    position: absolute;
+}
+
+#sub{
+    display: none;
+    margin-top: 0px;
+}
+
+.menu ul ul li:hover #sub{
+    display: block;
+}
+
+.menu ul ul li:hover{
+    background-color: #00446e;
+}
+
+.menu ul ul ul li:hover{
+    background-color: #003e63;
+}
+
+.menu li:hover{
+    font-size: 25px;
+    cursor: pointer;
+}
+
+#item{
+    margin-left: 7px;
+    margin-right: 7px;
+}
+
+article{
+    display: block;
+    background-color: whitesmoke;
+    opacity: 0.8;
+    padding: 10px;
+    margin-bottom: 20px;
+    margin-left: 1cm;
+    margin-right: 1cm;
+}
+
+h2, h3, p, a{
+    color: #382d28;
+}
+
+p{
+    text-align: justify;
+    line-height: 30px;
+}
+
+h2, h3, h4, p{
+    margin: 1cm;
+}
+
+h2{
+    text-align: center;
+}
+
+#beneficios {
+    color: #382d28;
+}
+
+img {
+    width: 400px;
+}
+
+#raça {
+    height: auto;
+    width: 400px;
+    display: absolute;
+    float: right;
+    padding: 15px;
+}
+
+#principal {
+    margin-left: 34%;
+}
+
+main nav ul li{
+    line-height: 30px;
+    margin-left: 1cm;
+}
+
+footer{
+    margin: 0px;
+    margin-bottom: 0px;
+    background-color: #007cc9;
+    display: block;
+    flex-direction: inherit;
+    padding: 15px;
+}
+
+#footer{
+    color: whitesmoke;
+    font-family: 'Dosis', sans-serif;
+    text-align: center;
+}
+
+#footer a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+#footer a:hover{
+    color: whitesmoke;
+    text-decoration: underline;
+}
+
+#titulo{
+    animation-name: crescendo;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0.2s;
+}
+
+.decoração{
+    animation-name: movendo;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+}
+
+#link:link{
+    color: black;
+}
+
+#link:visited{
+    color: #12254a;
+}
+
+@keyframes crescendo{
+    0%{
+        transform: scale(1);
+        color: #007cc9;
+    }
+
+    55%{
+        color: #2f9add;
+    }
+
+    100%{
+        transform: scale(2) rotate(360deg);
+        color: whitesmoke;
+    }
+}
+
+@keyframes movendo{
+    0%{
+        transform: scale(0);
+    }
+
+    60%{
+        transform: scale(0);
+    }
+
+    70%{
+        transform: scale(0.5);
+    }
+
+    100%{
+        transform: scale(1);
+    }
+
+}
