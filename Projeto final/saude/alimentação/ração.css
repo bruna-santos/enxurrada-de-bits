@@ -243,6 +243,19 @@ img {
     animation-delay: 0s;
 }
 
+#return{
+    text-align: center;
+}
+
+#return a{
+    color: #007cc9;
+    font-size: 18px;
+}
+
+#return a:hover{
+    color: white;
+}
+
 #link:link{
     color: black;
 }
@@ -253,6 +266,65 @@ img {
 
 iframe{
     margin-left: 27%;
+}
+
+article#tudo{
+    display: table;
+    padding: 20px;
+}
+
+section div{
+    width: 6cm;
+    height: 10cm;
+    background-color: white;
+    border: solid 1px gray;
+    border-radius: 10px;
+    margin: 20px 20px;
+    padding: 15px;
+    float: left;
+    margin-left: 3cm;
+}
+
+section div p{
+    text-align: center;
+    line-height: 20px;
+    font-size:15px;
+}
+
+section div img{
+    width: 4cm;
+    height: auto;
+}
+
+section div:hover{
+    width: 6.5cm;
+    height: 10.5cm;
+    background-color: white;
+    margin: 0px 20px;
+    padding: 15px;
+    cursor: pointer;
+}
+
+section div img:hover{
+    width: 5cm;
+    height: auto;
+    cursor: pointer;
+}
+
+section div p a:hover{
+    line-height: 20px;
+    font-size:18px;
+}
+
+
+section #float1{
+    margin-left: 60px; 
+}
+
+section #float2{
+    margin-left: 60px;
+    margin-right: 0px;
+    
 }
 
 @keyframes crescendo{

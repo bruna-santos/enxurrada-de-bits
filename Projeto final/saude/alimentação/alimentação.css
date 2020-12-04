@@ -289,6 +289,19 @@ iframe{
     margin-left: 27%;
 }
 
+#return{
+    text-align: center;
+}
+
+#return a{
+    color: #007cc9;
+    font-size: 18px;
+}
+
+#return a:hover{
+    color: white;
+}
+
 @keyframes crescendo{
     0%{
         transform: scale(1);
