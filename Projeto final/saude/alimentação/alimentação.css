@@ -65,7 +65,15 @@ h1{
     font-family: 'Dosis', sans-serif;
 }
 
-.menu ul li:hover{
+#head li:hover{
+    background-color: #044f7d;
+}
+
+#head li{
+    background-color: #007cc9;
+}
+
+#color li{
     background-color: #044f7d;
 }
 
@@ -89,16 +97,20 @@ h1{
     margin-top: 0px;
 }
 
+#sub li{
+    background-color: #044f7d;
+}
+
 .menu ul ul li:hover #sub{
     display: block;
 }
 
-.menu ul ul li:hover{
-    background-color: #00446e;
+#color li:hover{
+    background-color: #003e63;
 }
 
-.menu ul ul ul li:hover{
-    background-color: #003e63;
+#sub li:hover{
+    background-color: #023452;
 }
 
 .menu li:hover{
@@ -110,6 +122,7 @@ h1{
     margin-left: 7px;
     margin-right: 7px;
 }
+
 article{
     display: block;
     background-color: whitesmoke;
@@ -166,14 +179,14 @@ img {
 #raça2 {
     height: auto;
     width: 400px;
-    float: right;
+    float: left;
     margin-right: 1cm;
     padding-left: 20px;
 }
 
 #principal {
-    margin-left: 32%;
-    width: 450px;
+    margin-left: 29%;
+    width: 550px;
 }
 
 main nav ul li{
@@ -270,6 +283,10 @@ button:hover{
 
 #redirecionamento:hover{
     text-decoration: underline;
+}
+
+iframe{
+    margin-left: 27%;
 }
 
 @keyframes crescendo{

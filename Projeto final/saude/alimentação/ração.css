@@ -1,6 +1,6 @@
 head, body{
     background-color: #b0e1ff;
-    color: #382d28;
+    color: #1f1a18;
     font-family: 'Dosis', sans-serif;
     margin-left: 0px;
     margin-right: 0px;
@@ -17,8 +17,8 @@ header{
     width: auto;
     height: 90px;
     padding-top: 20px;
-    padding-right: 20px;
-    margin-left: 35%;
+    padding-right: 0px;
+    margin-left: 32%;
 }
 
 h1{
@@ -29,6 +29,7 @@ h1{
     margin-bottom: 0px;
     text-align: justify;
     margin-left: 0px;
+    padding-left: 0px;
     margin-right: 5%;
     color: white;
 
@@ -65,7 +66,15 @@ h1{
     font-family: 'Dosis', sans-serif;
 }
 
-.menu ul li:hover{
+#head li:hover{
+    background-color: #044f7d;
+}
+
+#head li{
+    background-color: #007cc9;
+}
+
+#color li{
     background-color: #044f7d;
 }
 
@@ -89,16 +98,20 @@ h1{
     margin-top: 0px;
 }
 
+#sub li{
+    background-color: #044f7d;
+}
+
 .menu ul ul li:hover #sub{
     display: block;
 }
 
-.menu ul ul li:hover{
-    background-color: #00446e;
+#color li:hover{
+    background-color: #003e63;
 }
 
-.menu ul ul ul li:hover{
-    background-color: #003e63;
+#sub li:hover{
+    background-color: #023452;
 }
 
 .menu li:hover{
@@ -187,22 +200,33 @@ img {
     display: absolute;
     float: right;
     margin-right: 2.5cm;
+    margin-bottom: 20px;
+}
+
+#raça1 {
+    height: auto;
+    width: 450px;
+    display: absolute;
+    float: left;
+    margin-right: 1cm;
+    margin-left: 0cm;
 }
 
 #principal {
-    margin-left: 34%;
+    margin-left: 25%;
+    width: 600px;
 }
 
 #saco{
-    margin-left: 30%;
+    margin-left: 17%;
     height: auto;
-    width: 550px;
+    width: 800px;
 }
 
 #tabela{
-    margin-left: 30%;
+    margin-left: 17%;
     height: auto;
-    width: 600px;
+    width: 800px;
 }
 
 #titulo{
@@ -225,6 +249,10 @@ img {
 
 #link:visited{
     color: #12254a;
+}
+
+iframe{
+    margin-left: 27%;
 }
 
 @keyframes crescendo{

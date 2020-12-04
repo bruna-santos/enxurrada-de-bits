@@ -41,41 +41,41 @@ function botaoQuiz() {
     } else {
         i++;
     }
-    if (espaço === 'Sim'){
+    if (espaço.value === 'Sim'){
         agitado++,
         grande++;
-    } else if(espaço === 'Não') {
+    } else if(espaço.value === 'Não') {
         tranquilo++,
         pequeno++;
     } else {
         i++;
     }
-    if (orçamento === 'Baixo'){
-        raça++;
-    } else if (orçamento === 'Alto') {
+    if (orçamento.value === 'Baixo'){
         srd++;
+    } else if (orçamento.value === 'Alto') {
+        raça++;
     } else {
         i++;
     }
-    if (criança === 'Sim'){
+    if (criança.value === 'Sim'){
         tranquilo++,
         pequeno++;
-    } else if (criança === 'Não') {
+    } else if (criança.value === 'Não') {
         agitado++,
         grande++;
     } else {
         i++;
     }
-    if (animais === 'Sim'){
+    if (animais.value === 'Sim'){
         tranquilo++;
-    } else if (animais === 'Não') {
+    } else if (animais.value === 'Não') {
         agitado++;
     } else {
         i++;
     }
-    if (barulho === 'Sim'){
+    if (barulho.value === 'Sim'){
         tranquilo++;
-    } else if (barulho === 'Não'){
+    } else if (barulho.value === 'Não'){
         agitado++;
     } else {
         i++;
@@ -95,7 +95,7 @@ function botaoQuiz() {
     } else {
         pedigree = 'sem raça definida ou, como o conhecemos mais, o vira-lata';
     }
-    respostas.innerHTML = `De acordo com suas respostas, um cachorro ${tamanho}, ${temperamento} e ${pedigree} seria conciliável com a sua rotina e um bom companheiro para o seu estilo de vida! Se quiser, pode conferir a personalidade de cada raça na seção "Raças" do menu e assim escolher melhor :) `
+    respostas.innerHTML = `De acordo com suas respostas, um cachorro ${tamanho}, ${temperamento} e ${pedigree} seria conciliável com a sua rotina e um bom companheiro para o seu estilo de vida! Se quiser, pode conferir a personalidade de diversas raças que se encaixam no seu perfil na seção "Raças" do menu e assim escolher melhor :) `
     if (parseInt(i) > 0){
         respostas.innerHTML = 'É necessário preencher TODOS os campos para realizar o quiz.'
     }

@@ -8,7 +8,6 @@
         <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap" rel="stylesheet">
-        <script src="expectativa.js"></script>
     </head>
     <body>
         <header>
@@ -23,11 +22,11 @@
                     <li id="item"><a href="../raças.html">Raças</a></il>
                     <li id="item"><a href="expectativa de vida/expectativa.html">Expectativa de vida</a></li>
                     <li id="item"><a href="">Saúde</a>
-                        <ul>
+                        <ul id="color">
                             <li><a href="">Alimentação ></a>
                                 <ul id="sub">
                                     <li><a href="../saude/alimentação/alimentação.html">Alimentação Natural</a></li>
-                                    <li><a href="../saude/ração/ração.html">Rações</a></li>
+                                    <li><a href="../saude/alimentação/ração.html">Rações</a></li>
                                 </ul>
                             </li>
                             <li><a href="../saude/doenças.html">Doenças</a></li>
@@ -35,9 +34,9 @@
                         </ul>
                     </li>
                     <li id="item"><a href="">Outros</a>
-                        <ul>
+                        <ul id="color">
                             <li><a href="../adoção/adoção.html">Adoção</a></li>
-                            <li><a href="">Adestramento</a></li>
+                            <li><a href="../adestramento/adestramento.html">Adestramento</a></li>
                         </ul>
                     </li>
                     <li id="item"><a href="../../cachorros/galeria.html">Galeria</a></li>
@@ -131,7 +130,7 @@
                 </p>
                 <section>
                 <img src="../../cachorros/consulta1.png" id="raça">
-                <label for="name">Qual o nome do seu pet?</label>
+                <label for="nome">Qual o nome do seu pet?</label>
                 <br>
                 <input type="text" id="nome" placeholder="Digite o nome do seu pet..." size=60>
                 <br><br>
@@ -139,8 +138,8 @@
                 <br>
                 <select name="genero" id="genero">
                     <option value="none">--Selecione--</option>
-                    <option value="macho">Macho</option>
                     <option value="femea">Fêmea</option>
+                    <option value="macho">Macho</option>
                 </select>
                 <br><br>
                 <label for="idade">Qual a idade do seu pet?</label>
@@ -158,7 +157,7 @@
                 <br><br>
                 <button onclick="clicouNoBotao()">OK</button>
                 <br>
-                <p id="dadosFinais"></p>
+                <p id="resultadoFinal"></p>
                 <p id="triste"></p>
                 </section>
                 <br><br><br><br><br><br><br><br>
@@ -185,4 +184,5 @@
             </p>
         </footer>
     </body>
+    <script src="expectativa.js"></script>
 </html>
