@@ -124,7 +124,7 @@ h1{
 }
 
 article{
-    display: block;
+    display: table;
     background-color: whitesmoke;
     opacity: 0.8;
     padding: 10px;
@@ -175,9 +175,12 @@ img {
     margin-right:1cm;
 }
 
-#principal {
-    margin-left: 26%;
+#principal img{
     width: 600px;
+}
+
+#principal{
+    text-align: center;
 }
 
 main nav ul li{
@@ -235,10 +238,6 @@ footer{
 
 #link:visited{
     color: #12254a;
-}
-
-iframe{
-    margin-left: 8cm;
 }
 
 #frame{

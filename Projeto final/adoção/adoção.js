@@ -91,7 +91,7 @@ function botaoQuiz() {
         temperamento = 'agitado';
     }
     if (parseInt(raça) > 1) {
-        pedigree = 'raça';
+        pedigree = 'de raça';
     } else {
         pedigree = 'sem raça definida ou, como o conhecemos mais, o vira-lata';
     }

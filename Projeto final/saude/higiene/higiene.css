@@ -126,7 +126,7 @@ h1{
 }
 
 article{
-    display: block;
+    display: table;
     background-color: whitesmoke;
     opacity: 0.8;
     padding: 10px;
@@ -211,7 +211,10 @@ img {
 }
 
 #principal {
-    margin-left: 28%;
+    text-align: center;
+}
+
+#principal img{
     width: 550px;
 }
 

@@ -7,6 +7,7 @@ const medio = 14;
 const grande = 12;
 let a, idadeTotal, x, y, z, s;
 let resultado = document.querySelector('#resultadoFinal');
+let text = document.createElement('p');
 let i = 0;
 function clicouNoBotao(){
         if (genero.value === 'macho') {
@@ -37,16 +38,22 @@ function clicouNoBotao(){
     } else if (d.value === 'none') {
         i++;
     }
-        if (parseInt(idadeTotal) < 3, parseInt(idadeTotal) > 1) {
+        if (parseInt(idadeTotal) < 3) {
         triste.innerHTML = (`Infelizmente ${a} ${nome.value} tem apenas alguns aninhos restantes :( <br> Aproveite ao máximo seu tempo com el${x}!`)
     }
         if (parseInt(i) > 0){
-        resultado.innerHTML = ('É necessário preencher <strong>TODOS</strong> os campos para realizar a consulta.');
+            text.innerHTML = ('É necessário preencher <strong>TODOS</strong> os campos para realizar a consulta.');
+            text.innerHTML = "";
+            resultado.appendChild(text);
     }
         if (parseInt(idadeTotal) < 0){
-            resultado.innerHTML = (`A expectativa de vida de cães de porte ${d.value} geralmente é ${y} anos. ${z} ${nome.value} já ultrapassou essa média. Isso mostra que el${x} é um pet muito saudável, mas que provavelmente não tem mais muito tempo :( <br> Por isso, aproveite ao máximo seu tempo com ${a} ${s} companheir${a}!`);
+            text.innerHTML = (`A expectativa de vida de cães de porte ${d.value} geralmente é ${y} anos. ${z} ${nome.value} já ultrapassou essa média. Isso mostra que el${x} é um pet muito saudável, mas que provavelmente não tem mais muito tempo :( <br> Por isso, aproveite ao máximo seu tempo com ${a} ${s} companheir${a}!`);
+            text.innerHTML = "";
+            resultado.appendChild(text);
         }
         if (parseInt(idadeTotal) === 0){
-            resultado.innerHTML = (`A expectativa de vida de cães de porte ${d.value} geralmente é ${y} anos. ${z} ${nome.value} já alcançou essa faixa etária. Isso mostra que el${x} é um pet saudável, mas que provavelmente não tem mais muito tempo :( <br> Por isso, aproveite ao máximo seu tempo com ${a} ${s} companheir${a}!`);
+            text.innerHTML = (`A expectativa de vida de cães de porte ${d.value} geralmente é ${y} anos. ${z} ${nome.value} já alcançou essa faixa etária. Isso mostra que el${x} é um pet saudável, mas que provavelmente não tem mais muito tempo :( <br> Por isso, aproveite ao máximo seu tempo com ${a} ${s} companheir${a}!`);
+            text.innerHTML = "";
+            resultado.appendChild(text);
         }
 }

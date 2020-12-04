@@ -124,7 +124,7 @@ h1{
 }
 
 article{
-    display: block;
+    display: table;
     background-color: whitesmoke;
     opacity: 0.8;
     padding: 10px;
@@ -168,9 +168,12 @@ img {
 
 }
 
-#principal {
-    margin-left: 25%;
+#principal img{
     width: 600px;
+}
+
+#principal{
+    text-align: center;
 }
 
 main nav ul li{

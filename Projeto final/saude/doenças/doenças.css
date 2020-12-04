@@ -124,7 +124,7 @@ h1{
 }
 
 article{
-    display: block;
+    display: table;
     background-color: whitesmoke;
     opacity: 0.8;
     padding: 10px;
@@ -230,18 +230,17 @@ footer{
 }
 
 #principal {
-    margin-left: 34%;
+    text-align: center;
 }
 
 iframe{
     margin-left: 2cm;
 }
 
-#pdf{
+#principal iframe{
     width: 800px;
     height: 500px;
     border: none;
-    margin-left: 15%;
 }
 
 #titulo{

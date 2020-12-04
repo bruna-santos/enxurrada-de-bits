@@ -124,13 +124,17 @@ h1{
 }
 
 article{
-    display: block;
+    display: table;
     background-color: whitesmoke;
     opacity: 0.8;
     padding: 10px;
     margin-bottom: 20px;
     margin-left: 1cm;
     margin-right: 1cm;
+}
+
+#article{
+    display: block;
 }
 
 h2, h3, p, a{
@@ -205,7 +209,10 @@ img {
 }
 
 #principal {
-    margin-left: 27%;
+    text-align: center;
+}
+
+#principal img{
     width: 550px;
 }
 
@@ -308,10 +315,6 @@ button:hover{
 #rotina, #personalidade, #exercicio, #espaço, #orçamento, #criança, #animais, #barulho{
     width: 4cm;
     background-color: #fff2e8;
-}
-
-iframe{
-    margin-left: 8.5cm;
 }
 
 #cidade{

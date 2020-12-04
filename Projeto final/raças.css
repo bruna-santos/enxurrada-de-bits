@@ -124,7 +124,7 @@ h1{
 }
 
 article{
-    display: block;
+    display: table;
     background-color: whitesmoke;
     opacity: 0.8;
     padding: 10px;
@@ -163,7 +163,7 @@ img {
     width: 400px;
     display: absolute;
     float: right;
-    padding: 15px;
+    padding: 20px;
 }
 
 #raça1 {
@@ -171,17 +171,35 @@ img {
     width: 500px;
     display: absolute;
     float: right;
+    padding: 20px;
+}
+
+#LabradorRaça1{
+    height: auto;
+    width: 500px;
+    display: absolute;
+    float: right;
     padding: 15px;
+    margin-left: 20px;
 }
 
 #principal {
-    margin-left: 26%;
+    text-align:center;
+}
+
+#principal img{
     width: 600px;
 }
 
 main nav ul li{
     line-height: 30px;
     margin-left: 1cm;
+}
+
+main nav ol li{
+    line-height: 30px;
+    margin-left: 1cm;
+    margin-right: 1cm;
 }
 
 footer{
